@@ -1,0 +1,160 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.header img {
+    padding-top: 20px;
+}
+
+.registerarea {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    height: 40px;
+    line-height: 40px;
+    background-color: #ececec;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.registerarea .have {
+    float: right;
+    padding: 0 15px 0 0;
+    font-size: 14px;
+}
+
+.registerarea a {
+    color: #c81623;
+}
+
+
+/* reg_form */
+
+.reg_form {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto;
+}
+
+.reg_form li {
+    margin-bottom: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    text-align: right;
+}
+
+.inp {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+
+.success_ico,
+.erro_ico {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.erro {
+    color: #df3033;
+}
+
+.success {
+    color: #40b83f;
+}
+
+.success_ico {
+    background: url(../img/success.png) no-repeat;
+}
+
+
+/* 安全程度 */
+
+.safe {
+    padding: 5px 0 15px 150px;
+}
+
+.safe em {
+    display: inline-block;
+    width: 36px;
+    height: 16px;
+    color: #fff;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+
+/* 同意注册协议 */
+
+.agree {
+    padding-left: 120px;
+    margin-top: 20px;
+}
+
+.agree span {
+    color: #1ba1e6;
+}
+
+
+/* 完成注册 */
+
+.over {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    margin: 40px 0 0 120px;
+}
+
+
+/* footer */
+
+.footer {
+    height: 120px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer {
+    line-height: 20px;
+}
+
+.copyright {
+    margin-top: 10px;
+}

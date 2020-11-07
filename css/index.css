@@ -1,0 +1,284 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+}
+
+.narrow_l,
+.narrow_r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    font-family: 'icomoon';
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.narrow_r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.circle li {
+    float: left;
+    width: 10px;
+    margin: 3px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 50%;
+}
+
+.newflash {
+    width: 250px;
+    height: 455px;
+}
+
+
+/* newflash开始 */
+
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+
+.news-hd {
+    height: 33px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 33px;
+}
+
+.news-hd a {
+    float: right;
+    font-family: 'icomoon';
+    font-size: 12px;
+}
+
+.new-bd {
+    padding: 10px 0 0 15px;
+}
+
+.new-bd li {
+    line-height: 23px;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    /* 图标i的父亲是a hidden解决外边距塌陷问题 */
+    overflow: hidden;
+    display: block;
+    height: 100%;
+}
+
+.lifeservice li p {
+    text-align: center;
+}
+
+.service-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.service-icon-huafei {
+    background-position: -17px -16px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+
+/* recommend 推荐模块开始 */
+
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+    background-color: pink;
+}
+
+.recom-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    margin-top: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.recom-hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recom-hd img {
+    margin-top: 25px;
+}
+
+.recom-hd p {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+
+
+/* recommend 推荐模块结束 */
+
+
+/* 固定导航开始 */
+
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    width: 66px;
+    margin-left: -676px;
+}
+
+.fixedtool li {
+    height: 32px;
+    background-color: #fff;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 32px;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+
+/* 固定导航结束 */
+
+
+/* 电梯导航开始 */
+
+.box-hd {
+    height: 30px;
+    width: 100%;
+    margin-top: 25px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.box-hd div {
+    float: right;
+}
+
+.box-hd div li {
+    float: left;
+}
+
+.box-hd div li a {
+    margin: 0 15px;
+}
+
+.box-bd {
+    width: 100%;
+    height: 360px;
+    background-color: #f9f9f9;
+}
+
+.w209 {
+    overflow: hidden;
+    width: 209px;
+    margin-left: 10px;
+}
+
+.tab-con-list {
+    /* 此为ul，ul是父亲没有高，里面的孩子li又浮动，设定margin-bottom就要清除浮动 */
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.w209 li {
+    float: left;
+    width: 86px;
+    height: 32px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 32px;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 215px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-con {
+    float: left;
+    height: 100%;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* 电梯的导航结束 */
